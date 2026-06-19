@@ -19,12 +19,12 @@ K = 1.0                        # phonon spring constant
 T = 0.1                        # temperature 
 α = 0.0                        # magnetic field
 ν = 1.4                        # filling ν ∈ [0, 2]
-γ_seed = 1                     # seed for coupling disorder 
+γ_seed = 1                     # RNG seed for coupling disorder 
 
 # Monte Carlo parameters
 s_tot = 5000                   # total steps (including burn-in)
 s_burn = 1000                  # burn-in steps
-η = 0.1                        # spectral broadening
+η = 0.1                        # Lorentzian broadening for Dirac distributions
 
 # Run simulation
 println("Running simulation with parameters:")
