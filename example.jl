@@ -65,7 +65,7 @@ println("Simulation diagnostics:")
 println("  Acceptance ratio: $(round(accept_ratio, digits=3)) (target ≈ 0.574)")
 println("  Final filling: ν = $(round(n_mean, digits=4)) (target: $ν)")
 
-## 3. Optical conductivity
+## 3. Plotting optical conductivity
 omega_op = observables.omega_op
 sigma_x = observables.op_cond_fast_x
 sigma_y = observables.op_cond_fast_y
